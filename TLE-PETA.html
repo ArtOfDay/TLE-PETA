@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+ .navbar-container {
+            display: flex;
+            align-items: center;
+            background-color: #333;
+            padding: 10px;
+        }
+        .navbar-container img {
+            height: 50px;
+            width: auto;
+            margin-right: 15px;
+        }
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: flex;
+  align-items: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+	border-radius:8px;
+	transition:0.8s;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 100%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #C1E3FF;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color:#C1E3FF;
+  width: auto;
+  padding: 20px;
+  color:black;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color:#A16BFE;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: black;
+	color:white;
+  margin-top: 20px;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<center>
+<div class="navbar-container">
+<img src="lab.png">
+<div class="topnav">
+  <a href="file:///C:/Users/Admin/Pictures/Yi/TLE-PETA.html"> HOME</a>
+  <a href="file:///C:/Users/Admin/Pictures/Yi/ABOUT.html"> ABOUT </a>
+  <a href="file:///C:/Users/Admin/Pictures/Yi/Contact.html"> CREDITS </a>
+</div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>CSS WEBSITE LAYOUT</h2>
+      <h5>What's a Css Website Layout?</h5>
+      <div class="fakeimg" style="height:28s0px;">
+	<p>A CSS website layout typically consists of different sections like the header, navigation, main content, sidebar, and footer. These elements are styled and positioned using CSS to create a structured and visually appealing webpage.</p>
+
+<p>Basic Structure of a Website Layout
+A standard website layout includes:</p>
+
+<p>Header – Contains the site logo, title, and navigation menu.</p>
+
+<p>Navigation (Nav Bar) – Links to different pages or sections.</p>
+
+<p>Main Content – The primary area where articles, images, or features appear.</p>
+
+<p>Sidebar (optional) – Often used for extra navigation, ads, or widgets.</p>
+
+<p>Footer – Includes copyright, social media links, and other information.</p>
+	</div>
+      
+    </div>
+    <div class="card">
+      <h2>CSS NAVIGATION BAR</h2>
+      <h5>What is Css Navigation Bar?</h5>
+      <div class="fakeimg" style="height:400px;">
+	
+
+<p>A CSS navigation bar is a menu designed with CSS to help users navigate different sections or pages of a website. It organizes links in a structured format, often at the top or side of a webpage.</p>
+
+<p>Types of CSS Navigation Bars:</p>
+	<p>1.	Horizontal Navigation Bar: Displays menu items in a row.</p>
+	<p>2.	Vertical Navigation Bar: Stacks menu items in a column.</p>
+	<p>3.	Fixed Navigation Bar: Stays visible at the top of the page while scrolling.</p>
+	<p>4.	Responsive Navigation Bar: Adjusts to different screen sizes and devices.</p>
+
+<p>Importance of a CSS Navigation Bar:</p>
+	<p>•	Improves user experience by making navigation easy.</p>
+	<p>•	Enhances accessibility for users on different devices.</p>
+	<p>•	Helps with website organization and SEO (Search Engine Optimization) by structuring links effectively.</p>
+
+	</div>
+     
+     
+    </div>
+  </div>
+      
+    <div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>CSS LINKS </h2>
+      <h5>What are Css Links?</h5>
+      <div class="fakeimg" style="height:390px;">
+	<p>CSS links refer to hyperlinks ( elements) that are styled using CSS to improve their appearance and interactivity. Links allow users to navigate between web pages, sections, or external resources.</p>
+
+<p>Common CSS Link States:</p>
+
+<p>	•Normal (a {}) – Default style of a link.
+</p>
+
+<p>	•Hover (a:hover {}) – Changes when the user hovers over the link.
+</p>
+
+<p>•Active (a:active {}) – Styles the link when it is clicked.</p>
+
+<p>	•Visited (a:visited {}) – Applies styling to links that have been previously clicked.</p>
+
+<p>Why Are CSS Links Important?</p>
+<p>	•	Enhance readability by customizing text color, font, and background.</p>
+<p>	•	Improve navigation by making links more visible and interactive.</p>
+<p>	•	Help with branding by allowing consistent styles across a website.</p>
+	</div>
+      
+    </div>
+ 
+    
+    <div class="card">
+      <h3>Follow Us</h3>
+      <h2>Into Our Next Topic Explaination's ^-^</h2>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Made By:9-GomBurZa Boys</h2>
+</div>
+
+
+
+</center>
+</body>
+</html>

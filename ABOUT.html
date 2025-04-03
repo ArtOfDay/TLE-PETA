@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #C1E3FF;
+}
+
+ .navbar-container {
+            display: flex;
+            align-items: center;
+            background-color: #333;
+            padding: 10px;
+        }
+        .navbar-container img {
+            height: 50px;
+            width: auto;
+            margin-right: 15px;
+        }
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: flex;
+  align-items: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+	border-radius:8px;
+	transition:0.8s;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #C1E3FF;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color:C1E3FF;
+  width: auto;
+  padding: 20px;
+  color:black;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #A16BFE;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: black;
+	color:white;
+  margin-top: 20px;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<center>
+
+
+<div class="navbar-container">
+<img src="lab.png">
+<div class="topnav">
+  <a href="file:///C:/Users/Admin/Pictures/Yi/TLE-PETA.html"> HOME </a>
+  <a href="file:///C:/Users/Admin/Pictures/Yi/ABOUT.html"> ABOUT </a>
+  <a href="file:///C:/Users/Admin/Pictures/Yi/Contact.html"> CREDITS </a>
+</div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>What is this Website?</h2>
+      
+      <div class="fakeimg" style="height:240px;">
+	<h1>This Website Was Made For a Group Peta </h1>
+	<h1>To Explain 3 HTML and CSS </h1>
+	<h1>Topics In The Subject TLE</h1>
+	</div>
+      <p></p>
+    </div>
+    <div class="card">
+      <h2>What We're The 3 Topics That Was Explained?</h2>
+      
+      <div class="fakeimg" style="height:290px;">
+	<h1>The 3 Topics We Explained We're:</h1>
+	<h2>CSS WEBSITE LAYOUT</h2>
+	<h2>CSS LINKS</h2>
+	<h2>CSS NAVIGATION BAR</h2>
+	</div>
+      
+     
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Are There Any Other Group Peta Like This One?</h2>
+      <div class="fakeimg" style="height:150px;">
+	<h2>Yes, There Are More Group Peta Like This And To See Them Click The Links Below:</h2>
+</div>
+      
+    </div>
+    <div class="card">
+      <h3>The Links</h3>
+      <div class="fakeimg">
+	<h1></h1>
+	</div>
+      
+    </div>
+    <div class="card">
+      <h3>Follow Us</h3>
+      <h2>Into Our Next Journey</h2>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Made By:9-GomBurZa Boys</h2>
+</div>
+
+
+</center>
+</body>
+</html>
